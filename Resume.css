@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 243, 243);
+}
+
+@media screen and (min-width:1600px){
+    .cont{
+        max-width: 1200px ;
+    }
+}
+
+.cont{
+    width: 75%;
+    margin: auto;
+    background-color: white;
+}
+.cont1{
+    width: 85%;
+    margin: auto;
+}
+
+div h1{
+    text-align: center;
+}
+
+#myname{
+    font-size: 25px;
+    margin: 0;
+}
+
+.details{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+.heading{
+    background-color: rgb(204, 173, 144);
+}
+
+.heading p{
+    padding: 5px;
+
+}
+
+.education p{
+    margin: 5px 0 0 50px;
+}
+
+div li{
+    padding: 10px ;
+}
+
+.personal p{
+    margin: 5px 0 0 50px;
+}
+
+.declaration{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.date p{
+    margin: 10px 0;
+}
